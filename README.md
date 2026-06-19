@@ -11,6 +11,7 @@ real-world QA testing for data integrity and quality assurance.
 
 ## Project Structure
 
+```
 sql-data-validation-portfolio/
 
 ├── database/
@@ -20,6 +21,7 @@ sql-data-validation-portfolio/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 
 ## Test Cases
 
