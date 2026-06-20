@@ -3,7 +3,8 @@ import pytest
 
 @pytest.fixture
 def db_connection():
-    conn = sqlite3.connect("database/ecommerce.db")
+    import os
+    conn = sqlite3.connect(os.path.join(os.path.dirname(__file__), "..", "database", "ecommerce.db"))
     yield conn
     conn.close()
 
