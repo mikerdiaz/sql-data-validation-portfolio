@@ -1,5 +1,7 @@
 # SQL Data Validation Portfolio
 
+![CI](https://github.com/mikerdiaz/sql-data-validation-portfolio/actions/workflows/ci.yml/badge.svg)
+
 Data validation framework using Python, SQLite, and Pytest to demonstrate
 real-world QA testing for data integrity and quality assurance.
 
